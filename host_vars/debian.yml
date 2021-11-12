@@ -1,0 +1,6 @@
+ansible_host: ec2-3-123-127-241.eu-central-1.compute.amazonaws.com 
+ansible_user: admin
+ansible_port: 22
+
+docker_users:
+  - root

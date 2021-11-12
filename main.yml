@@ -1,0 +1,11 @@
+---
+- name: Main AVX playbook
+  hosts: 
+    - ubuntu
+
+  vars_files:
+    - group_vars/vars.yml
+      # - group_vars/vault.yml
+
+  roles:
+    - awx

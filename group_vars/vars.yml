@@ -1,0 +1,1 @@
+vagrant_boxes_sudo_pass: "{{ vagrant_boxes_sudo_pass }}"

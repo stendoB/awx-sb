@@ -1,0 +1,14 @@
+---
+# tasks file for awx
+
+- name: Show shell home
+  shell: echo $SHELL
+  register: home
+
+- name: Show hostname
+  shell: hostname
+  register: hostname
+
+- debug:
+    var: home.stdout
+    var: hosntame.stdout
