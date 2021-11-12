@@ -11,4 +11,5 @@
 
 - debug:
     var: home.stdout
-    var: hosntame.stdout
+- debug:
+    var: hostname.stdout
