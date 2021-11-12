@@ -1,7 +1,7 @@
 ---
 - name: Main AVX playbook
   hosts: 
-    - ubuntu
+    - all
 
   vars_files:
     - group_vars/vars.yml
